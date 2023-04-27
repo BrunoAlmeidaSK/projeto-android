@@ -172,21 +172,25 @@ a.externo::after{
 
 /*Conf do Conteudo extra*/
 .container {
-    margin: auto;
+   /* margin: auto;
     max-width: 400px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-      
-    padding-right: 35px;
+      */
+    
     color: #050505;
     font-family: arial;
     font-size: 15px;
+    columns: 2;
+    list-style-position: inside;
+    margin-left: 15px;
+    padding-left: 15px;
   }
 
   .container li  {
     margin-top: 7px;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
     list-style-type: '\2714\0020\0020';
       
   } 
